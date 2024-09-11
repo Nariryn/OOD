@@ -56,7 +56,6 @@ class Linkedlist:
  
         temp = None
  
-
     def pop(self):
         cur = self.head
         while cur.next is not None:

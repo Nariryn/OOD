@@ -9,3 +9,4 @@ n = len(A)
 print(n)
 
 print(f"Min : {finMin(A, n)}")
+
