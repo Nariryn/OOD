@@ -86,7 +86,6 @@ class AVLTree:
         y.update_height()
 
         return y
-
     def post_order(self):
         print("AVLTree post-order :", end=' ')
         self._post_order(self.root)
@@ -97,6 +96,7 @@ class AVLTree:
             self._post_order(root.left)
             self._post_order(root.right)
             print(root.data, end=' ')
+        
 
     def print_tree(self):
         self._print_tree(self.root, 0)
